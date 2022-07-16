@@ -1,16 +1,13 @@
 .container {
     display: flex;
-    grid-column: 5/13;
-    gap: 2;
     height: 700px;
 }
 
 .container .card {
     flex-grow: 1;
 
-    background-position: center top;
-    background-size: auto 100%;
-    background-repeat:no-repeat;
+    /* background-size: auto 100%; */
+    /* background-repeat:no-repeat; */
     flex-grow: 1;
     transition: width 300ms ease;
 
@@ -21,7 +18,7 @@
 }
 
 .container .card:hover {
-    width: 100%;
+    width: 150%;
 }
 
 .imageOne {
